@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3833535721
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5d748c87b870cc1651f7e17f41515134
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesEx/datas.assetbundle/SensitiveWord.txt
+Dependencies: []

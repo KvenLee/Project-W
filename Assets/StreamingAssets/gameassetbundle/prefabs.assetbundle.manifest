@@ -1,0 +1,77 @@
+ManifestFileVersion: 0
+CRC: 1509319360
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d91cdc937327a5de8300deafc7914738
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 775ebbeafbf918c2aea0a9a294a10009
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 102
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7581f6d0a1690d846870db762a827db6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d47faad4922875b4a82c9e877f060884, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0661fc663c6165648a9b5727f2ef1f85, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c07585a6d8387324880ec92e25c20d4b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 93cc6a4987f7c684798156c56d545838, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6906594aab59d5c47b08eb11c08d1dcc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 473806cc6d2cd8048a3d7ff93713fd37, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- "Assets/ResourcesEx/prefabs.assetbundle/monster004\u9EC4\u6CB3\u5927\u4FA0.prefab"
+- "Assets/ResourcesEx/prefabs.assetbundle/monster009\u5927\u6B66\u5C0F\u4F53.prefab"
+- Assets/ResourcesEx/prefabs.assetbundle/skill-10002.prefab
+- Assets/ResourcesEx/prefabs.assetbundle/bloodbar.prefab
+- Assets/ResourcesEx/prefabs.assetbundle/BattleActorRoot.prefab
+- "Assets/ResourcesEx/prefabs.assetbundle/monster003\u90ED\u8944.prefab"
+- Assets/ResourcesEx/prefabs.assetbundle/skill-10001.prefab
+- Assets/ResourcesEx/prefabs.assetbundle/skill-10021.prefab
+- Assets/ResourcesEx/prefabs.assetbundle/skill-10003.prefab
+- "Assets/ResourcesEx/prefabs.assetbundle/monster006\u6D2A\u51CC\u6CE2.prefab"
+- Assets/ResourcesEx/prefabs.assetbundle/bloodtext.prefab
+- Assets/ResourcesEx/prefabs.assetbundle/skill-10005.prefab
+- Assets/ResourcesEx/prefabs.assetbundle/skill-10010.prefab
+- Assets/ResourcesEx/prefabs.assetbundle/actor001.prefab
+- Assets/ResourcesEx/prefabs.assetbundle/skill-10004.prefab
+- "Assets/ResourcesEx/prefabs.assetbundle/monster010\u4E1C\u90AA\u9EC4\u836F\u5E08.prefab"
+- "Assets/ResourcesEx/prefabs.assetbundle/monster005\u5C39\u5FD7\u5E73.prefab"
+- Assets/ResourcesEx/prefabs.assetbundle/skill-10006.prefab
+- "Assets/ResourcesEx/prefabs.assetbundle/monster001\u602A\u4E66\u751F.prefab"
+- "Assets/ResourcesEx/prefabs.assetbundle/monster002\u90ED\u8299.prefab"
+- "Assets/ResourcesEx/prefabs.assetbundle/monster008\u8FBE\u5DF4\u5C14.prefab"
+- "Assets/ResourcesEx/prefabs.assetbundle/monster007\u7A0B\u82F1.prefab"
+- Assets/ResourcesEx/prefabs.assetbundle/ActorRoot.prefab
+- Assets/ResourcesEx/prefabs.assetbundle/skill-10020.prefab
+Dependencies:
+- F:/Project-W/Project-W/Assets/StreamingAssets/gameassetbundle/materials.assetbundle
+- F:/Project-W/Project-W/Assets/StreamingAssets/gameassetbundle/sprites.assetbundle

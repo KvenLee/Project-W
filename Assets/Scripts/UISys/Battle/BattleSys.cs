@@ -27,28 +27,6 @@ public class BattleSys : GameSys<BattleSys>
         base.SysEnter();
     }
 
-    private void HeroHeadClick(GameObject ob)
-    {
-        Debug.Log(ob.name);
-
-        bool use_ok = false;
-        int station = int.Parse(ob.name.Split('_')[1]);
-
-        for(int i = RoundMgr.Instance.m_TeamActor[Pb.TeamType.CS_TEAM_BLUE].Count - 1; i >= 0; i--)
-        {
-            if(RoundMgr.Instance.m_TeamActor[Pb.TeamType.CS_TEAM_BLUE][i].station == station)
-            {
-                 use_ok = RoundMgr.Instance.m_TeamActor[Pb.TeamType.CS_TEAM_BLUE][i].UseEstoericSkill();
-                 break;
-            }
-        }
-        if(use_ok)
-        {
-            //ob
-        }
-        //ob.GetComponent<ActorBase>().
-    }
-
     public override void SysUpdate()
     {
         base.SysUpdate();
@@ -64,11 +42,29 @@ public class BattleSys : GameSys<BattleSys>
         base.SysLeave();
     }
 
+    private void HeroHeadClick(int actorID)
+    {
+        bool use_ok = false;
+        //int actorID = ob.GetComponent<BattleHeroUICtrl>().actor_id;
 
+        for(int i = RoundMgr.Instance.m_TeamActor[Pb.TeamType.CS_TEAM_BLUE].Count - 1; i >= 0; i--)
+        {
+            if(RoundMgr.Instance.m_TeamActor[Pb.TeamType.CS_TEAM_BLUE][i].actorID == actorID)
+            {
+                use_ok = RoundMgr.Instance.m_TeamActor[Pb.TeamType.CS_TEAM_BLUE][i].UseEstoericSkill();
+                break;
+            }
+        }
+        if(use_ok)
+        {
+            //ob
+        }
+        //ob.GetComponent<ActorBase>().
+    }
 
     public IEnumerator LoadScene()
     {
-        //1、load scene
+        //1、load sceneve
         GameObject go = ObjectsManager.CreateGameObject(BundleBelong.map, "BattleScene", false);
 
         yield return null;
@@ -103,10 +99,14 @@ public class BattleSys : GameSys<BattleSys>
                 BattleHeroUICtrl bhctrl =  trans.GetComponent<BattleHeroUICtrl>();
                 if(bhctrl != null)
                 {
-                    string icon = CUility.PbBytes2String(TableMgr.Instance.GetRecord<ResHeroInfo>(TableMgr.cIdxHero, team.team_player_blue[dataIndex].player_id).head_icon);
-                    bhctrl.icon.sprite = ObjectsManager.LoadObject<Sprite>(BundleBelong.ugui, icon);
+                    int actorid = team.team_player_blue[dataIndex].player_id;
+                    ResHeroInfo heroInfo = TableMgr.Instance.GetRecord<ResHeroInfo>(TableMgr.cIdxHero, actorid);
+                    string icon = CUility.PbBytes2String(heroInfo.head_icon);
+                    bhctrl.icon.sprite = ObjectsManager.LoadObject<Sprite>(BundleBelong.headicon, icon);
                     bhctrl.gridHelper.BindDataSource(3, null);
-                    UIEventListener.Get(bhctrl.heroUIRoot).onClick = HeroHeadClick;
+                    bhctrl.actor_id = actorid;
+                    bhctrl.pressAction = HeroHeadClick;
+                    bhctrl.IsCanUse = false;
                 }
             });
         }

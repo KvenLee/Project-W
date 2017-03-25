@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 4084099285
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8f23953ccb309a0fbefaa5b186db909b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2a24a9978fdb95795666a3dcd27b07c6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59683303171edef44b5c55b811c9399a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fc4f7f33d8fc7c0419b2308165807ce0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2f01b895e078212419b3a7c52085d19e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0f724cf54caa23a4eae67181b05e26f9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1eced26236e71b4aa2208eb83598295, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 162937f7b3a7c2146b89ee440f96caec, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4786562aef63c2a4aa8fb5f6cdc4001d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 98624a0f831c71a4f8238868844092ed, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesEx/maps.assetbundle/GridMap.prefab
+- Assets/ResourcesEx/maps.assetbundle/BattleScene.prefab
+- "Assets/ResourcesEx/maps.assetbundle/\u5730\u56FE2.prefab"
+- "Assets/ResourcesEx/maps.assetbundle/\u5730\u56FE1.prefab"
+Dependencies:
+- F:/Project-W/Project-W/Assets/StreamingAssets/gameassetbundle/ugui.assetbundle

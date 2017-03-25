@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 120142206
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 470a7c786b10309fe338b7469fa432d0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4d24bf54f46935ed9e6cf78ac481bb9d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- "Assets/ResourcesEx/atlas.assetbundle/loading/LOADING\u5B57.png"
+- "Assets/ResourcesEx/atlas.assetbundle/loading/LOADING\u8F6C\u5708.png"
+Dependencies: []

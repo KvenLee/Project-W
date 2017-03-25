@@ -1,0 +1,83 @@
+ManifestFileVersion: 0
+CRC: 1251237751
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b8f3d03a6646c3444fd6f861b11d1d9d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4d24bf54f46935ed9e6cf78ac481bb9d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesEx/atlas.assetbundle/halficon/26.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/3.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/62.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/40.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/33.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/28.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/27.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/38.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/65.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/9.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/18.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/22.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/48.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/14.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/7.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/34.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/35.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/5.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/15.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/50.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/64.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/31.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/24.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/61.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/23.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/13.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/41.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/44.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/58.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/37.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/19.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/47.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/51.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/32.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/11.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/20.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/17.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/30.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/6.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/25.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/8.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/56.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/66.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/60.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/59.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/63.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/43.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/53.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/42.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/10.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/54.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/45.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/49.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/2.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/39.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/16.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/57.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/55.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/1.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/52.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/4.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/36.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/46.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/21.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/12.png
+- Assets/ResourcesEx/atlas.assetbundle/halficon/29.png
+Dependencies: []

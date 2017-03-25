@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1631584439
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1e9d7f8a0197d0f51819c7065bc286fc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 40be49e8179e4038ba11213480d22dfe
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResourcesEx/fonts.assetbundle/GameFont.ttf
+- Assets/ResourcesEx/fonts.assetbundle/msyh.ttf
+- Assets/ResourcesEx/fonts.assetbundle/JDJXINGKAI.TTF
+Dependencies: []

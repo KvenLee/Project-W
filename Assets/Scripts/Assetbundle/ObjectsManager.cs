@@ -29,10 +29,10 @@ public struct BundleBelong
     public static string scene = "scenes.assetbundle";
     public static string ugui = "ugui.assetbundle";
     public static string altas = "atlas.assetbundle";
-    public static string loading = "loadingAtlas.assetbundle";
-    public static string chipicon = "chipiconAtlas.assetbundle";
-    public static string halficon = "halficonAtlas.assetbundle";
-    public static string headicon = "headiconAtlas.assetbundle";
+    public static string loading = "loadingatlas.assetbundle";
+    public static string chipicon = "chipiconatlas.assetbundle";
+    public static string halficon = "halficonatlas.assetbundle";
+    public static string headicon = "headiconatlas.assetbundle";
 }
 
 /// <summary>
