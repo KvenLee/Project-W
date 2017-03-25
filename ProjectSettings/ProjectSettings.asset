@@ -475,8 +475,8 @@ PlayerSettings:
     Collab: 1
     ErrorHub: 0
     Hub: 0
-    UNet: 0
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+    UNet: 1
+  cloudProjectId: 0ed87a26-45f0-4d96-bed7-56a9ba7ff8ed
+  projectName: Project-W
+  organizationId: xing-zhou
   cloudEnabled: 0
