@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1144E6F7-B591-EA96-EB13-EA54483E469D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile>Assets\smcs.rsp</CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\3rdParty\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets\3rdParty\DOTween\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets\3rdParty\DOTween\DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\Plugins\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\3rdParty\DOTween\Examples\Basics.cs" />
+    <Compile Include="Assets\3rdParty\DOTween\Examples\Sequences.cs" />
+    <Compile Include="Assets\3rdParty\PolyNav2D\DEMO\Scripts\ClickToMove.cs" />
+    <Compile Include="Assets\3rdParty\PolyNav2D\DEMO\Scripts\MoveBetween.cs" />
+    <Compile Include="Assets\3rdParty\PolyNav2D\Scripts\Runtime\AStar.cs" />
+    <Compile Include="Assets\3rdParty\PolyNav2D\Scripts\Runtime\Heap.cs" />
+    <Compile Include="Assets\3rdParty\PolyNav2D\Scripts\Runtime\PolyNav2D.cs" />
+    <Compile Include="Assets\3rdParty\PolyNav2D\Scripts\Runtime\PolyNavAgent.cs" />
+    <Compile Include="Assets\3rdParty\PolyNav2D\Scripts\Runtime\PolyNavObstacle.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\BclHelpers.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\BufferExtension.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\BufferPool.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\CallbackAttributes.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Compiler\CompilerContext.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Compiler\CompilerDelegates.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Compiler\Local.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\DataFormat.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Extensible.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ExtensibleUtil.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\GlobalSuppressions.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Helpers.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\IExtensible.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\IExtension.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ImplicitFields.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\KeyValuePairProxy.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Meta\AttributeMap.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Meta\BasicList.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Meta\CallbackSet.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Meta\MetaType.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Meta\RuntimeTypeModel.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Meta\SubType.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Meta\TypeFormatEventArgs.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Meta\TypeModel.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Meta\ValueMember.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\NetObjectCache.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\PrefixStyle.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ProtoContractAttribute.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ProtoConverterAttribute.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ProtoEnumAttribute.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ProtoException.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ProtoIgnoreAttribute.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ProtoIncludeAttribute.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ProtoMemberAttribute.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ProtoReader.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ProtoWriter.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\SerializationContext.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\ArrayDecorator.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\BlobSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\BooleanSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\ByteSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\CharSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\CompiledSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\DateTimeSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\DecimalSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\DefaultValueDecorator.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\DoubleSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\EnumSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\FieldDecorator.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\GuidSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\IProtoSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\IProtoTypeSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\ISerializerProxy.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\ImmutableCollectionDecorator.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\Int16Serializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\Int32Serializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\Int64Serializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\KeyValuePairDecorator.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\ListDecorator.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\MemberSpecifiedDecorator.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\NetObjectSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\NullDecorator.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\ParseableSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\PropertyDecorator.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\ProtoDecoratorBase.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\SByteSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\SingleSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\StringSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\SubItemSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\SurrogateSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\SystemTypeSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\TagDecorator.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\TimeSpanSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\TupleSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\TypeSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\UInt16Serializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\UInt32Serializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\UInt64Serializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\Serializers\UriDecorator.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ServiceModel\ProtoBehaviorAttribute.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ServiceModel\ProtoBehaviorExtensionElement.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ServiceModel\ProtoEndpointBehavior.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ServiceModel\ProtoOperationBehavior.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\ServiceModel\XmlProtoSerializer.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\SubItemToken.cs" />
+    <Compile Include="Assets\3rdParty\protobuf-net\WireType.cs" />
+    <Compile Include="Assets\Emoji\Scripts\EmojiText.cs" />
+    <Compile Include="Assets\Scripts\Assetbundle\FileCustomHelper.cs" />
+    <Compile Include="Assets\Scripts\Assetbundle\GzipHelper.cs" />
+    <Compile Include="Assets\Scripts\Assetbundle\ObjectsManager.cs" />
+    <Compile Include="Assets\Scripts\Assetbundle\ResourcesUpdate.cs" />
+    <Compile Include="Assets\Scripts\Battle\AnimatorCfg.cs" />
+    <Compile Include="Assets\Scripts\Battle\AttackDefance\BaseHurt.cs" />
+    <Compile Include="Assets\Scripts\Battle\AttackDefance\BloodBar.cs" />
+    <Compile Include="Assets\Scripts\Battle\AttackDefance\BloodText.cs" />
+    <Compile Include="Assets\Scripts\Battle\BattleCfg.cs" />
+    <Compile Include="Assets\Scripts\Battle\Buff\BaseBuff.cs" />
+    <Compile Include="Assets\Scripts\Battle\Camera\BattleCamera.cs" />
+    <Compile Include="Assets\Scripts\Battle\FNegEnum.cs" />
+    <Compile Include="Assets\Scripts\Battle\GameEnum.cs" />
+    <Compile Include="Assets\Scripts\Battle\MapCfg.cs" />
+    <Compile Include="Assets\Scripts\Battle\Player\ActorBase.cs" />
+    <Compile Include="Assets\Scripts\Battle\Player\RoundMgr.cs" />
+    <Compile Include="Assets\Scripts\Battle\Skill\BaseSkillComplier.cs" />
+    <Compile Include="Assets\Scripts\Battle\Skill\FlyAction.cs" />
+    <Compile Include="Assets\Scripts\Battle\Skill\SkillConfig.cs" />
+    <Compile Include="Assets\Scripts\Battle\Skill\SkillManager.cs" />
+    <Compile Include="Assets\Scripts\Battle\Skill\TargetAction.cs" />
+    <Compile Include="Assets\Scripts\Battle\Skill\TimeBase.cs" />
+    <Compile Include="Assets\Scripts\Battle\UGUIAtlasCfg.cs" />
+    <Compile Include="Assets\Scripts\Common\CUility.cs" />
+    <Compile Include="Assets\Scripts\Common\CameraAdapter.cs" />
+    <Compile Include="Assets\Scripts\Common\DateTimeHelper.cs" />
+    <Compile Include="Assets\Scripts\Common\MaskTransfer.cs" />
+    <Compile Include="Assets\Scripts\Common\ObjectDelayDestroy.cs" />
+    <Compile Include="Assets\Scripts\Common\PoolManager.cs" />
+    <Compile Include="Assets\Scripts\Common\RenderQueue.cs" />
+    <Compile Include="Assets\Scripts\Common\SensitiveWordHelper.cs" />
+    <Compile Include="Assets\Scripts\Common\ShowFPS.cs" />
+    <Compile Include="Assets\Scripts\Common\TUSingleton.cs" />
+    <Compile Include="Assets\Scripts\Common\Table.cs" />
+    <Compile Include="Assets\Scripts\Common\UGUIEx\Gradient.cs" />
+    <Compile Include="Assets\Scripts\Common\UGUIEx\GridLayoutHelper.cs" />
+    <Compile Include="Assets\Scripts\Common\UGUIEx\ScrollViewCell.cs" />
+    <Compile Include="Assets\Scripts\Common\UGUIEx\ScrollViewLooper.cs" />
+    <Compile Include="Assets\Scripts\Common\UGUIEx\TextSpacing.cs" />
+    <Compile Include="Assets\Scripts\Common\UGUIEx\UIDepth.cs" />
+    <Compile Include="Assets\Scripts\Common\UGUIEx\UIEventListener.cs" />
+    <Compile Include="Assets\Scripts\Common\UGUIEx\UIEventSys.cs" />
+    <Compile Include="Assets\Scripts\Common\UVOffset.cs" />
+    <Compile Include="Assets\Scripts\Common\UVScoll.cs" />
+    <Compile Include="Assets\Scripts\Common\UniqueIDHelper.cs" />
+    <Compile Include="Assets\Scripts\FrameWork\NotifyEvent.cs" />
+    <Compile Include="Assets\Scripts\FrameWork\UIFrame\BaseUICtrl.cs" />
+    <Compile Include="Assets\Scripts\FrameWork\UIFrame\CGameRoot.cs" />
+    <Compile Include="Assets\Scripts\FrameWork\UIFrame\CGameSystem.cs" />
+    <Compile Include="Assets\Scripts\Logic\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Logic\TableMgr.cs" />
+    <Compile Include="Assets\Scripts\Map\Cover2D.cs" />
+    <Compile Include="Assets\Scripts\Map\GridMap\AStarPathFinding.cs" />
+    <Compile Include="Assets\Scripts\Map\GridMap\GridMapMgr.cs" />
+    <Compile Include="Assets\Scripts\Proto\battle.cs" />
+    <Compile Include="Assets\Scripts\Proto\common.cs" />
+    <Compile Include="Assets\Scripts\Proto\game.cs" />
+    <Compile Include="Assets\Scripts\Res\Res_Hero.cs" />
+    <Compile Include="Assets\Scripts\Res\Res_Item.cs" />
+    <Compile Include="Assets\Scripts\Res\Res_Skill.cs" />
+    <Compile Include="Assets\Scripts\Res\Res_Soldier.cs" />
+    <Compile Include="Assets\Scripts\TweenerEx\UIRotate.cs" />
+    <Compile Include="Assets\Scripts\TweenerEx\UITweenAlpha.cs" />
+    <Compile Include="Assets\Scripts\TweenerEx\UITweenHandler.cs" />
+    <Compile Include="Assets\Scripts\TweenerEx\UITweenPosition.cs" />
+    <Compile Include="Assets\Scripts\TweenerEx\UITweenRotate.cs" />
+    <Compile Include="Assets\Scripts\TweenerEx\UITweenScale.cs" />
+    <Compile Include="Assets\Scripts\UISys\Bag\BagItemCell.cs" />
+    <Compile Include="Assets\Scripts\UISys\Bag\BagSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\Bag\BagUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\Battle\BattleHeroUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\Battle\BattleSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\Battle\BattleUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\Economic\EconomicSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\Economic\EconomicUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\Enroll\EnrollCell.cs" />
+    <Compile Include="Assets\Scripts\UISys\Enroll\EnrollSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\Enroll\EnrollUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\HeroGrow\HeroGrowSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\HeroGrow\HeroGrowUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\HeroInfo\HeroInfoSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\HeroInfo\HeroInfoUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\Loading\LoadingSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\Loading\LoadingUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\MainBackGround\MainBackGroundSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\MainBackGround\MainBackGroundUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\MainGamePage\MainGamePageSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\MainGamePage\MainGamePageUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\MainPlayer\MainPlayerSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\MainPlayer\MainPlayerUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\MainPlayer\UIPlayerCell.cs" />
+    <Compile Include="Assets\Scripts\UISys\MessageTip\MessageTipSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\MessageTip\MessageTipUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\PreBattle\PreBattleSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\PreBattle\PreBattleUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\ResourcesUpdate\ResourcesUpdateUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\Task\TaskSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\Task\TaskUICtrl.cs" />
+    <Compile Include="Assets\Scripts\UISys\UIManager.cs" />
+    <Compile Include="Assets\Scripts\UISys\WorldMap\WorldMapArea.cs" />
+    <Compile Include="Assets\Scripts\UISys\WorldMap\WorldMapSys.cs" />
+    <Compile Include="Assets\Scripts\UISys\WorldMap\WorldMapUICtrl.cs" />
+    <Compile Include="Assets\ScrollViewLooper\Demo\DemoController.cs" />
+    <Compile Include="Assets\ScrollViewLooper\Demo\Realization.cs" />
+    <Compile Include="Assets\Test.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\3rdParty\DOTween\DOTween.XML" />
+    <None Include="Assets\3rdParty\DOTween\DOTween43.xml" />
+    <None Include="Assets\3rdParty\DOTween\DOTween46.xml" />
+    <None Include="Assets\3rdParty\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\3rdParty\DOTween\readme.txt" />
+    <None Include="Assets\3rdParty\protobuf-net\Web\TODO.txt" />
+    <None Include="Assets\Emoji\Output\emoji.txt" />
+    <None Include="Assets\ResourcesEx\datas.assetbundle\SensitiveWord.txt" />
+    <None Include="Assets\ResourcesEx\datas.assetbundle\emoji.txt" />
+    <None Include="Assets\ResourcesEx\shader.assetbundle\HG_Effect_ScrollingUVs_Add.shader" />
+    <None Include="Assets\ResourcesEx\shader.assetbundle\UI-EmojiFont.shader" />
+    <None Include="Assets\ShaderDemo\Mobile-Diffuse.shader" />
+    <None Include="Assets\ShaderDemo\UIAdd.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

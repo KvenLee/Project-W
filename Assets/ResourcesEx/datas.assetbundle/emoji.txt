@@ -1,0 +1,4 @@
+Name	Key	Frames	X	Y	Size
+{dizzy}	[dizzy]	4	0	0	0.25
+{kiss}	[kiss]	6	0	0.25	0.25
+{smile}	[smile]	1	0.5	0.5	0.25
