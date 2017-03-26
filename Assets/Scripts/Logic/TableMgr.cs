@@ -10,6 +10,7 @@ public class TableMgr
     public const int cIdxHero = 0;
     public const int cIdxSkill = 1;
     public const int cIdxSoldier = 2;
+    public const int cIdxItem = 2;
     public Dictionary<int, TableRecordBase> m_tablePathDict = new Dictionary<int, TableRecordBase>()
     {
         {
@@ -34,6 +35,14 @@ public class TableMgr
             {
                 path = "Soldier",
                 tableIndex = cIdxSoldier,
+            }
+        },
+        {
+            cIdxItem,
+            new TableRecord<ResItemList, ResItemInfo>
+            {
+                path = "Item",
+                tableIndex = cIdxItem,
             }
         },
     };

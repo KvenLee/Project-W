@@ -71,6 +71,14 @@ namespace Res_Table
       get { return _slots; }
       set { _slots = value; }
     }
+    private byte[] _icon_bundle = null;
+    [global::ProtoBuf.ProtoMember(8, IsRequired = false, Name=@"icon_bundle", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::System.ComponentModel.DefaultValue(null)]
+    public byte[] icon_bundle
+    {
+      get { return _icon_bundle; }
+      set { _icon_bundle = value; }
+    }
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
@@ -99,6 +107,20 @@ namespace Res_Table
             
       [global::ProtoBuf.ProtoEnum(Name=@"E_HEAD", Value=1)]
       E_HEAD = 1
+    }
+  
+    [global::ProtoBuf.ProtoContract(Name=@"ItemType")]
+    public enum ItemType
+    {
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"E_Consume", Value=1)]
+      E_Consume = 1,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"E_Equip", Value=2)]
+      E_Equip = 2,
+            
+      [global::ProtoBuf.ProtoEnum(Name=@"E_Hero", Value=3)]
+      E_Hero = 3
     }
   
 }

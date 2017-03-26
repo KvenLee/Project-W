@@ -33,6 +33,7 @@ public struct BundleBelong
     public static string chipicon = "chipiconatlas.assetbundle";
     public static string halficon = "halficonatlas.assetbundle";
     public static string headicon = "headiconatlas.assetbundle";
+    public static string itemicon = "itemiconatlas.assetbundle";
 }
 
 /// <summary>
@@ -186,7 +187,7 @@ public class ObjectsManager
     /// <returns></returns>
     public static T LoadObject<T>(string bundleName, string gameName) where T : Object
     {
-        if(string.IsNullOrEmpty(gameName))
+        if(string.IsNullOrEmpty(gameName) || string.IsNullOrEmpty(bundleName))
             return null;
         return Load<T>(bundleName, gameName);
     }
