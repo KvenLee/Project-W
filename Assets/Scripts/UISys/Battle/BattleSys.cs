@@ -12,7 +12,9 @@ public class BattleSys : GameSys<BattleSys>
 
     private string prefab = "UIBattle";
     public BattleUICtrl CtrlUI { get; private set; }
-    
+
+    private Dictionary<int ,BattleHeroUICtrl> batHeroUIDic = new Dictionary<int, BattleHeroUICtrl>();
+
     public override void SysEnter()
     {
         if(CtrlUI == null)
@@ -30,7 +32,13 @@ public class BattleSys : GameSys<BattleSys>
     public override void SysUpdate()
     {
         base.SysUpdate();
-        
+        if(batHeroUIDic.Count > 0)
+        {
+            foreach(ActorBase ab in RoundMgr.Instance.m_TeamActor[Pb.TeamType.CS_TEAM_BLUE])
+            {
+                batHeroUIDic[ab.actorID].IsCanUse = ab.DetectEstSkillCD(SkillType.ESOTERIC);
+            }
+        }
     }
     public override void SysLeave()
     {
@@ -39,6 +47,7 @@ public class BattleSys : GameSys<BattleSys>
             CtrlUI.gameObject.SetActive(false);
             CtrlUI = null;
         }
+        batHeroUIDic.Clear();
         base.SysLeave();
     }
 
@@ -47,11 +56,11 @@ public class BattleSys : GameSys<BattleSys>
         bool use_ok = false;
         //int actorID = ob.GetComponent<BattleHeroUICtrl>().actor_id;
 
-        for(int i = RoundMgr.Instance.m_TeamActor[Pb.TeamType.CS_TEAM_BLUE].Count - 1; i >= 0; i--)
+        foreach(ActorBase ab in RoundMgr.Instance.m_TeamActor[Pb.TeamType.CS_TEAM_BLUE])
         {
-            if(RoundMgr.Instance.m_TeamActor[Pb.TeamType.CS_TEAM_BLUE][i].actorID == actorID)
+            if(ab.actorID == actorID)
             {
-                use_ok = RoundMgr.Instance.m_TeamActor[Pb.TeamType.CS_TEAM_BLUE][i].UseEstoericSkill();
+                use_ok = ab.UseEstoericSkill();
                 break;
             }
         }
@@ -94,6 +103,7 @@ public class BattleSys : GameSys<BattleSys>
         //4.load ui
         if(CtrlUI != null)
         {
+            batHeroUIDic.Clear();
             CtrlUI.gridHelper.BindDataSource(team.team_player_blue.Count, delegate(Transform trans, int dataIndex)
             {
                 BattleHeroUICtrl bhctrl =  trans.GetComponent<BattleHeroUICtrl>();
@@ -107,6 +117,8 @@ public class BattleSys : GameSys<BattleSys>
                     bhctrl.actor_id = actorid;
                     bhctrl.pressAction = HeroHeadClick;
                     bhctrl.IsCanUse = false;
+
+                    batHeroUIDic.Add(actorid, bhctrl);
                 }
             });
         }

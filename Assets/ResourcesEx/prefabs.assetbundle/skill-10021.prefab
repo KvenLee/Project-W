@@ -43,7 +43,7 @@ MonoBehaviour:
   skillID: 10021
   skillName: "\u5927\u62DB"
   skillDes: 
-  skillCD: 0
+  skillCD: 1
   skillType: 3
   preAttack: 
   attack: skill3
@@ -52,6 +52,7 @@ MonoBehaviour:
   animFx: 
   attackRange: 1
   moveSpeed: 6
+  hitPos: 0
   targetGetter: 0
   excuteCount: 1
   animEvts:

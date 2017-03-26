@@ -99,6 +99,15 @@ public class SkillBase
             return !is_Using_Skill && player_skill_roundcd == 0 && SkillTargets != null && SkillTargets.Count > 0;
         }
     }
+
+    public bool IsSkillInCD
+    {
+        get
+        {
+            return player_skill_roundcd > 0;
+        }
+    }
+
     /// <summary>
     /// 是否可以使用追打技能
     /// </summary>

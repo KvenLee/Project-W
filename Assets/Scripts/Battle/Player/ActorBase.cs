@@ -201,6 +201,18 @@ public class ActorBase : FlyAction
         return false;
     }
 
+    public bool DetectEstSkillCD(SkillType type)
+    {
+        foreach(SkillBase sb in playerSkills)
+        {
+            if(sb.skillCfg.skillType == type)
+            {
+                return !sb.IsSkillInCD;
+            }
+        }
+        return false;
+    }
+
     /// <summary>
     /// 使用奥义大招
     /// </summary>
