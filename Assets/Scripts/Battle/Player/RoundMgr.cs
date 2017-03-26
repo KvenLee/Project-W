@@ -233,6 +233,5 @@ public class RoundMgr : TUSingleton<RoundMgr>
     {
         m_MaskCount += show ? 1 : -1;
         mask.SetActive(m_MaskCount > 0);
-        //BattleSys.Instance.CtrlUI.mask.SetActive(m_MaskCount > 0);
     }
 }

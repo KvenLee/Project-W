@@ -319,6 +319,7 @@ GameObject:
   - component: {fileID: 222560375287698292}
   - component: {fileID: 114320398350487282}
   - component: {fileID: 114979892698236110}
+  - component: {fileID: 114350388763204008}
   m_Layer: 0
   m_Name: Close_Button
   m_TagString: Untagged
@@ -1855,6 +1856,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AreaMark: 14
+--- !u!114 &114350388763204008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1310933027708334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6521682bc7df7478b2631f667f3da1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 2
+  clip: {fileID: 0}
+  audio_name: click
+  volume: 1
 --- !u!114 &114361400579096420
 MonoBehaviour:
   m_ObjectHideFlags: 1

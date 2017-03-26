@@ -233,6 +233,7 @@
     <Compile Include="Assets\Scripts\Common\UGUIEx\UIDepth.cs" />
     <Compile Include="Assets\Scripts\Common\UGUIEx\UIEventListener.cs" />
     <Compile Include="Assets\Scripts\Common\UGUIEx\UIEventSys.cs" />
+    <Compile Include="Assets\Scripts\Common\UGUIEx\UIPlaySound.cs" />
     <Compile Include="Assets\Scripts\Common\UVOffset.cs" />
     <Compile Include="Assets\Scripts\Common\UVScoll.cs" />
     <Compile Include="Assets\Scripts\Common\UniqueIDHelper.cs" />

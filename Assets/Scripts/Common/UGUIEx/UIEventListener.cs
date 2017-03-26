@@ -11,6 +11,7 @@ public class UIEventListener : EventTrigger
     public VoidDelegate onUp;
     public VoidDelegate onSelect;
     public VoidDelegate onUpdateSelect;
+    public VoidDelegate onClickToSound;
 
     static public UIEventListener Get(GameObject go)
     {
@@ -21,6 +22,7 @@ public class UIEventListener : EventTrigger
     public override void OnPointerClick(PointerEventData eventData)
     {
         if(onClick != null) onClick(gameObject);
+        if(onClickToSound != null) onClickToSound(gameObject);
     }
     public override void OnPointerDown(PointerEventData eventData)
     {
